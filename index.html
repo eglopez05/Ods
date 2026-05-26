@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planta un Árbol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <h1>🌱 EcoVida</h1>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#info">Información</a>
+      <a href="#acciones">Acciones</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="contenido">
+      <h2>Ayuda al planeta plantando árboles</h2>
+
+      <p>
+        Los árboles ayudan a disminuir el calentamiento global,
+        producen oxígeno y reducen la contaminación.
+      </p>
+
+      <button onclick="plantarArbol()">
+        🌳 Plantar Árbol
+      </button>
+
+      <div class="barra-container">
+        <div class="barra" id="barra"></div>
+      </div>
+
+      <p id="contador">Árboles plantados: 0</p>
+    </div>
+  </section>
+
+  <!-- INFORMACION -->
+  <section class="texto-hover">
+
+    <div class="titulo-info">
+      <h2>ℹ Información</h2>
+    </div>
+
+    <div class="caja-texto">
+
+      <p class="maquina">
+       Reducir el uso de plásticos, reciclar y plantar árboles ayuda a disminuir la contaminación.
+Usar transporte público o bicicleta reduce los gases que dañan el planeta.
+Ahorrar agua y energía también contribuye a cuidar el medio ambiente.
+Pequeñas acciones de cada persona pueden ayudar a combatir el calentamiento global.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- CARTAS -->
+  <section class="cartas" id="info">
+
+    <!-- CARD 1 -->
+    <div class="card">
+
+      <div class="face front">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000&auto=format&fit=crop" alt="">
+        <h2> Árboles</h2>
+      </div>
+
+      <div class="face back">
+        <p>
+          Los árboles limpian el aire y ayudan a disminuir el calor.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+
+      <div class="face front">
+        <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=1000&auto=format&fit=crop" alt="">
+        <h2> Medio Ambiente</h2>
+      </div>
+
+      <div class="face back">
+        <p>
+          Reducir la contaminación protege la vida y el planeta.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+
+      <div class="face front">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000&auto=format&fit=crop" alt="">
+        <h2> Agua</h2>
+      </div>
+
+      <div class="face back">
+        <p>
+          Los bosques ayudan a conservar el agua y evitar sequías.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BOTONES -->
+  <section class="botones" id="acciones">
+
+    <h2>Únete al cambio</h2>
+
+    <a href="https://www.un.org/sustainabledevelopment/es/climate-change-2/" target="_blank">
+      <button>ODS 13</button>
+    </a>
+
+    <a href="https://www.greenpeace.org/" target="_blank">
+      <button>Greenpeace</button>
+    </a>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
