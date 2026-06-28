@@ -1,0 +1,22 @@
+name: CI HTML
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Verificar archivos
+        run: |
+          echo "Proyecto HTML detectado"
+          ls -la
+
+      - name: Workflow finalizado
+        run: echo "Todo correcto"
